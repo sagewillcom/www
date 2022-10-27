@@ -6,6 +6,7 @@
 		"dev": "vite dev --config config/vite.config.ts",
 		"build": "vite build --config config/vite.config.ts",
 		"preview": "vite preview --config config/vite.config.ts",
+		"create:release": "gh release create --generate-notes --draft",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --ignore-path .gitignore --plugin-search-dir . --check . && eslint . --ignore-path .gitignore",
