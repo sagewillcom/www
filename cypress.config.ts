@@ -1,7 +1,7 @@
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
-  projectId: '4ms2vr',
+	projectId: '4ms2vr',
 	fixturesFolder: 'src/tests/fixtures',
 	screenshotsFolder: 'src/tests/screenshots',
 	videosFolder: 'src/tests/videos',
