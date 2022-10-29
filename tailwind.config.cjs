@@ -3,6 +3,9 @@ module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				rajdhani: ['Rajdhani', 'sans-serif']
+			},
 			colors: {
 				'cs-blue-0': '#edeef1',
 				'cs-blue-5': '#dbdee3',
