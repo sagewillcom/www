@@ -1,5 +1,3 @@
-import Header from './Header.svelte'
-
 export default {
 	title: 'Header/Main',
 	component: Header
