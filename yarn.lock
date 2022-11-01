@@ -9857,6 +9857,11 @@ scheduler@^0.19.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+schema-dts@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-1.1.0.tgz#33227971076ef1daa33e56a3127a8aae030e81c9"
+  integrity sha512-vdmbs/5ycj4zyKpZIDqTcy+IZi4s7c38RVAYuDmRi7zgxUT8wRWPMLzg0jr7FjdVunYu9yZ00F3+XcZTTFcTOQ==
+
 schema-utils@2.7.0:
   version "2.7.0"
   resolved "https://registry.npmjs.org/schema-utils/-/schema-utils-2.7.0.tgz"
@@ -10553,6 +10558,13 @@ svelte-loader@^3.1.3:
     loader-utils "^2.0.0"
     svelte-dev-helper "^1.1.9"
     svelte-hmr "^0.14.2"
+
+svelte-meta-tags@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.6.3.tgz#c4ca4780a6a19a8da65f4d854e8323642e220dc1"
+  integrity sha512-VEc6t8ka6t4ntnfDhkdKR+/Gj/51aeRXsFOJG/0xPXCUqhtY4Px93VqKp5vMNzNzVsKZIacX8maT2AbpjZX1BQ==
+  dependencies:
+    schema-dts "^1.1.0"
 
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.7:
   version "4.10.7"
