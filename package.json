@@ -3,9 +3,9 @@
 	"version": "0.0.2",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
+		"dev": "vite dev --config ./vite.config.ts",
+		"build": "vite build --config ./vite.config.ts",
+		"preview": "vite preview --config ./vite.config.ts",
 		"create:release": "gh release create --generate-notes --draft",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
